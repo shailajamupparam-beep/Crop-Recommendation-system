@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv(r"C:\Users\shail\Downloads\archive (1).zip")
+df = pd.read_csv("archive (1).zip")
 
 X = df[["N", "P","K","temperature", "humidity","ph","rainfall"]]
 label_encoder = LabelEncoder()
